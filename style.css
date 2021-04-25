@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    color: blue;
+    position: fixed;
+    font-size: 20px;
+}
+
+.list {
+    display: inline-block;
+    padding: 5px;
+}
+
+.list:hover {
+    background-color: aqua;
+}
+
+#home {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#row1 {
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#row11 {
+    width: 5%;
+    height: 5%;
+}
+
+#grid img {
+    width: 20%;
+    height: 40%;
+    padding-bottom: 5px;
+}
+
+#myCarousel img {
+    height: 700px;
+    width: 100%;
+    margin-top: -90px;
+}
+
+#myCarousel p {
+    color: white;
+    font-size: 30px;
+    margin-top: -90px;
+}

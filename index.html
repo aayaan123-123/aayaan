@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="list"><a href="#Home">Home</a></li>
+        <li class="list"><a href="#grid">Grid View</a></li>
+        <li class="list"><a href="#slide show">Slide view</a></li>
+
+    </ul>
+</body>
+<section id="Home">
+    <center> <img src="home.gif" class="img-responsive"> </center>
+</section>
+<section id="grid">
+    <h1>
+        grid gallery
+    </h1>
+    <div>
+        <span id="row1">
+            <img src="pic%201.jpg">
+        </span>
+        <span id="row1">
+            <img src="pic%202.jpg">
+        </span>
+        <span id="row1">
+            <img src="pic%203.jpg">
+        </span>
+        <span id="row1">
+            <img src="pic%204.jpg">
+        </span>
+    </div>
+    <div>
+        <span id="row1">
+            <img src="pic%205.jpg">
+        </span>
+        <span id="row1">
+            <img src="pic%206.jpg">
+        </span>
+        <span id="row1">
+            <img src="pic%207.jpg">
+        </span>
+        <span id="row1">
+            <img src="pic%208.jpg">
+        </span>
+    </div>
+</section>
+<section id="slide show">
+    <h2>Sliding Gallery</h2>
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <center><img src="pic%201.jpg" class="img-responsive">
+                    <div class="carosel-content">
+                        <p>Captian America</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center><img src="pic%202.jpg" class="img-responsive">
+                    <div class="carosel-content">
+                        <p>Black Panther</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center><img src="pic%203.jpg" class="img-responsive">
+                    <div class="carosel-content">
+                        <p>Hulk</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center><img src="pic%204.jpg" class="img-responsive">
+                    <div class="carosel-content">
+                        <p>Iron Man</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center><img src="pic%205.jpg" class="img-responsive">
+                    <div class="carosel-content">
+                        <p>Thanos</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center><img src="pic%206.jpg" class="img-responsive">
+                    <div class="carosel-content">
+                        <p>Thor</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center><img src="pic%207.jpg" class="img-responsive">
+                    <div class="carosel-content">
+                        <p>Gamora</p>
+                    </div>
+                </center>
+            </div>
+
+            <div class="item">
+                <center><img src="pic%208.jpg" class="img-responsive">
+                    <div class="carosel-content">
+                        <p>Scarlett</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+    </div>
+
+</section>
